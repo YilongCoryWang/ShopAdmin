@@ -1,15 +1,21 @@
 # ShopAdmin
-Project Description:
-1. Tech stack: C#, MVC dotnet core 6.0, EF core
+1. Project Description:
 
-2. Functionalities:
+    Admin portal of online shop
 
-    2.1 Register new user
+2. Tech stack:
 
-    2.2 User login
+    C#, MVC dotnet core 6.0, EF core
 
-    2.3 All users can browse product lists
+3. Functionalities:
 
-    2.4 Logged in users can create/edit products
+    3.1 Register new user
 
-    2.5 User log out
+    3.2 User login
+
+    3.3 All users can browse product lists
+
+    3.4 Logged in users can create/edit products
+
+    3.5 User log out
+
