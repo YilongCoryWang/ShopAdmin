@@ -65,7 +65,7 @@ namespace ShopAdmin.Controllers
 
         [HttpPost]
         [AllowAnonymous]
-        public async Task<IActionResult> Login(LoginViewModel model, string returnUrl)
+        public async Task<IActionResult> Login(LoginViewModel model, string? returnUrl)
         {
             if(ModelState.IsValid){
                 var result = await signInManager.PasswordSignInAsync(model.UserName, model.Password, model.RememberMe, false);
@@ -77,7 +77,7 @@ namespace ShopAdmin.Controllers
                     }
                     else
                     {
-                        return RedirectToAction("index", "home");
+                        return RedirectToAction("index", "Products");
                     }
                 }
 
